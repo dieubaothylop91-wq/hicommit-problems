@@ -5,9 +5,9 @@ int main() {
     scanf("%d", &t);
 
     if (t < 15) {
-        printf("LANH\n");
+        printf("MAT\n");
     } else if (t < 25) {
-        printf("LANH\n");
+        printf("MAT\n");
     } else if (t < 35) {
         printf("NONG\n");
     } else {
