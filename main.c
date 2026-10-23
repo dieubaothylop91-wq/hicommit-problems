@@ -1,7 +1,13 @@
 #include <stdio.h>
 int main() 
 {
-  float a,b ;
+  double w,f ;
+  if(scanf("%lf %lf", &w, &h)) ==2)
+  {
+    double h
+  }
+  
+  
   
   return 0;
 }
