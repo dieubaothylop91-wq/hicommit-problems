@@ -3,10 +3,8 @@ int main()
 {
   double w,h ;
   scanf ("%lf %lf", &w, &h);
+   double h_m
   
-  {
-    double h
-  }
   
   
   
