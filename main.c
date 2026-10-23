@@ -11,7 +11,9 @@ int main()
       printf("XEP_LOAI_GIOI\n");
       break;
     case 3:
-      printf("XEP_LOAI_KHA"\n);
+      printf("XEP_LOAI_KHA\n");
+    case 4:
+      printf("XEP_LOAI_TRUNG_BINH\n");
       
   }
   return 0;
