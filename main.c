@@ -1,5 +1,6 @@
 #include <stdio.h>
-{
+in main()
+
   double w,h ;
   scanf ("%lf %lf", &w, &h);
    double h_m = h / 100.0;
@@ -16,16 +17,5 @@
   if ( bmi < 30.0){
     printf("OBESE\n");
   }else
-  
-  
-  
-  
-    
-  }
-  
-  
-  
-  
-  
   return 0;
 }
