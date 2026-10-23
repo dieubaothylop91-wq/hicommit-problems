@@ -2,7 +2,7 @@
 int main() 
 {
   double w,f ;
-  if (scanf("%lf %lf", &w, &h)) ==2)
+  if (scanf ("%lf %lf", &w, &h) ==2)
   {
     double h
   }
