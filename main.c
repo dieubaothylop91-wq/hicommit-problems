@@ -10,6 +10,8 @@ int main() {
         tong = k * 1678;
     } else if (k <= 100) {
         tong = 83900 + (k - 50) * 1734;
+    } else if (k <= 200) {
+        tong = 170600 + (k - 100) * 2014;}
       return 0;
 }
   
