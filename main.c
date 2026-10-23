@@ -5,9 +5,11 @@ int main()
   scanf ("%lf %lf", &w, &h);
    double h_m = h / 100.0;
    double bmi = w / (h_m * h_m);
-  if (bmi<18.5)
-  {
-    printf("UNDERWEIGHT\n");
+  if (bmi<18.5){
+    printf("UNDERWEIGHT\n");}
+  esle if ()
+  
+  
     
   }
   
