@@ -1,5 +1,4 @@
 #include <stdio.h>
-int main() 
 {
   double w,h ;
   scanf ("%lf %lf", &w, &h);
@@ -8,11 +7,14 @@ int main()
   if (bmi<18.5){
     printf("UNDERWEIGHT\n");}
   else 
-  if (bmi<25){
+  if (bmi<25.0){
     printf("NORMAL\n");}
   else
-  if (25.0 <= bmi <30) {
+  if (25.0 <= bmi <30.0) {
     printf("OVERWEIGHT\n");}
+  else
+  if ( bmi < 30.0){
+    printf("OBESE\n");}
   
   
   
