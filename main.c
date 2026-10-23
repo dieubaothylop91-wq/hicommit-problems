@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main()
 {
-  double w,h ;
+   double w,h ;
    scanf ("%lf %lf", &w, &h);
-  
    double h_m = h / 100.0;
    double bmi = w / (h_m * h_m) + 1e-9;
   if (bmi<18.5){
@@ -15,7 +14,7 @@ int main()
   if (25.0 <= bmi <30.0){
     printf("OVERWEIGHT\n");
   }else
-  if ( bmi < 30.0){
+  if ( bmi >= 30.0){
     printf("OBESE\n");
   }else
   return 0;
