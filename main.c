@@ -5,7 +5,9 @@ int main() {
     scanf("%f", &dtb);
 
     if (dtb >= 9.0) {
-        printf("Diem chu la: A\n");
+        printf("A\n");
+    } else if (8.0 <= dtb < 9.0) {
+        printf("B+\n");
     }
 
     return 0;
