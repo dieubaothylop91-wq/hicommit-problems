@@ -10,6 +10,7 @@ int main()
   else 
   if (bmi<25){
     printf("NORMAL\n");}
+  else
   
   
   
