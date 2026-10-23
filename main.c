@@ -10,7 +10,7 @@ int main() {
     } else if (dtb >= 7.0 && drl >= 70) {
         printf("HOC_BONG_KHA\n");
       } else {
-      printf("KHONG DAT\n");
+      printf("KHONG_DAT\n");
     }
     return 0;
 }
