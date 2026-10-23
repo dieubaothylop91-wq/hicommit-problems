@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() 
 {
-  double w,f ;
-  if (scanf ("%lf %lf", &w, &h) ==2)
+  double w,h ;
+  scanf ("%lf %lf", &w, &h);
+  
   {
     double h
   }
