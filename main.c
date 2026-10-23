@@ -12,8 +12,10 @@ int main()
       break;
     case 3:
       printf("XEP_LOAI_KHA\n");
+      break;
     case 4:
       printf("XEP_LOAI_TRUNG_BINH\n");
+      break;
       
   }
   return 0;
