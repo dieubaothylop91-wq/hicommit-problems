@@ -2,7 +2,7 @@
 int main()
 {
   int code;
-  scanf("%d,&code");
+  scanf("%d",&code);
   switch (code) {
     case 1;
       printf("XEP_LOAI_XUAT_SAC\n");
@@ -12,6 +12,7 @@ int main()
       break;
     case 3;
       printf("XEP_LOAI_KHA"\n);
+      
   }
   return 0;
 }
