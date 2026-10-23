@@ -12,9 +12,14 @@ int main() {
         tong = 83900 + (k - 50) * 1734;
     } else if (k <= 200) {
         tong = 170600 + (k - 100) * 2014;
-   } else if (k <= 300) {
-        tong = 372000 + (k - 200) * 2536;}
-  
+    } else if (k <= 300) {
+        tong = 372000 + (k - 200) * 2536;
+    } else if (k <= 400) {
+        tong = 625600 + (k - 300) * 2834;
+    } else {
+        tong = 902800 + (k - 400) * 2927;
+    }
+    printf("%lld\n", tong);
       return 0;
 }
   
