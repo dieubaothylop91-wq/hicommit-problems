@@ -2,6 +2,7 @@
 int main()
 {
   int code;
-  scanf("")
+  scanf("%d,&code");
+  switch (code);
   return 0;
 }
