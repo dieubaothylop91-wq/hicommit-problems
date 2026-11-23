@@ -19,7 +19,15 @@ int main() {
                 max_days = 29;
             } else {
                 max_days = 28;
+ }
+        }
 
+        if (d <= max_days) {
+            printf("VALID\n");
+        } else {
+            printf("INVALID\n");
+        }
+    }
         
   return 0;
 }
