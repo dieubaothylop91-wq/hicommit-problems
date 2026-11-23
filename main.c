@@ -1,34 +1,36 @@
 #include <stdio.h>
 
-int main() {
-    float diem;
-
-    // Nhap diem tu ban phim
-    printf("Nhap diem trung binh cua sinh vien (0 - 10): ");
-    scanf("%f", &diem);
-
-    // Kiem tra tinh hop le va phan loai ket qua
-    if (diem < 0 || diem > 10) {
-        printf("Diem khong hop le!\n");
-    } 
-    else if (diem >= 9.0) {
-        printf("Xep loai: Xuat sac\n");
-    } 
-    else if (diem >= 8.0) {
-        printf("Xep loai: Gioi\n");
-    } 
-    else if (diem >= 6.5) {
-        printf("Xep loai: Kha\n");
-    } 
-    else if (diem >= 5.0) {
-        printf("Xep loai: Trung binh\n");
-    } 
-    else if (diem >= 3.5) {
-        printf("Xep loai: Yeu\n");
-    } 
-    else {
-        printf("Xep loai: Kem\n");
+int main() 
+{
+  int abs;
+  float gpa, min;
+  scanf("%f%f%d", &gpa, &min, &abs);
+  if(abs>3.0)
+  {
+    printf("FAIL_ATTENDANCE");
+  }
+  else
+  {
+    if(min<4.0)
+    {
+      printf("FAIL_SUBJECT");
     }
-
-    return 0;
+    else if(gpa>=8.0 && min>=7.0)
+    {
+      printf("EXCELLENT");
+    }
+    else if(gpa>=6.5 && min>=5.0)
+    {
+      printf("GOOD");
+    }
+    else if(gpa>=5.0 && min>=4.0)
+    {
+      printf("PASS");
+    }
+    else
+    {
+      printf("FAIL")
+    }
+  }
+  return 0;
 }
