@@ -5,7 +5,11 @@ int main() {
   int abs;
 
   if (scanf("%lf %lf %d", &gpa, &minScore, &abs) != 3){
-    
+   return 0;  
   }
+  if (abs > 3){
+    printf("FAIL_ATTENDANE\n");
+  }
+  
   return 0;
 }
