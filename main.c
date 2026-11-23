@@ -12,7 +12,7 @@ int main()
   } else {
     tien = 15000.0 + 4 * 13000.0 + (d - 5) * 11000.0;
   } 
+  printf("%d\n" , (int)tien);
   
-  }
   return 0;
 }
