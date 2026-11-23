@@ -17,7 +17,8 @@ int main() {
         } else {
             if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
                 max_days = 29;
-            }
+            } else {
+                max_days = 28;
 
         
   return 0;
