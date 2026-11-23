@@ -10,6 +10,8 @@ int main() {
         printf("INVALID\n");
     } else {
         int max_days;
+        if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12) {
+            max_days = 31;
 
         
   return 0;
