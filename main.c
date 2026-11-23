@@ -29,7 +29,7 @@ int main()
     }
     else
     {
-      printf("FAIL")
+      printf("FAIL");
     }
   }
   return 0;
